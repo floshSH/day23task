@@ -1,0 +1,23 @@
+@media screen and (min-width:1000px) {
+  #laptopView{
+      
+      display: block;
+  }
+  #padView{
+    display: none;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  #laptopView{
+      
+      display: none;
+  }
+  #padView{
+    display: block;
+  }
+
+}
+
+
+
